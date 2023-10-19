@@ -1,0 +1,64 @@
+@import "../variables";
+@import "../flex-grid";
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 35px;
+  width: 100%;
+  z-index: 2;
+
+  .row {
+    flex-wrap: nowrap;
+  }
+
+  .logo {
+    color: $fontColorLight;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    letter-spacing: 1.44px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.header__col {
+  display: flex;
+
+  &:last-of-type {
+    justify-content: flex-end;
+  }
+}
+
+.header-navigation {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.header-navigation__list {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  @media all and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.header-navigation__list-item {
+  display: flex;
+  align-items: center;
+}
+
+.header-navigation__list-item-link {
+  color: $fontColorLight;
+  font-family: $fontFamilyContent;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 27px */
+  padding: 0 10px;
+}

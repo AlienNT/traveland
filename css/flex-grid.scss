@@ -1,0 +1,22 @@
+@import "variables";
+
+.flex-grid-padding {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.container {
+  @extend .flex-grid-padding;
+  margin: 0 auto;
+  max-width: $containerWidth;
+  width: 100%;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.col {
+  @extend .flex-grid-padding;
+  flex: auto;
+}

@@ -1,13 +1,367 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/main.js" type="module"></script>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col header__col">
+                <a href="" class="logo">Trevland</a>
+            </div>
+            <div class="col header__col">
+                <nav class="header-navigation">
+                    <ul class="header-navigation__list">
+                        <li class="header-navigation__list-item">
+                            <a href="" class="header-navigation__list-item-link">Home</a>
+                        </li>
+                        <li class="header-navigation__list-item">
+                            <a href="" class="header-navigation__list-item-link">Location</a>
+                        </li>
+                        <li class="header-navigation__list-item">
+                            <a href="" class="header-navigation__list-item-link">Blog</a>
+                        </li>
+                        <li class="header-navigation__list-item">
+                            <a href="" class="header-navigation__list-item-link">About</a>
+                        </li>
+                        <li class="header-navigation__list-item">
+                            <a href="" class="header-navigation__list-item-link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col header__col">
+                <a href="" class="button-link">Booking now</a>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="main">
+    <section class="screen screen-1">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="screen__title first-screen-title">
+                        <span>Railtrips To Here,</span>
+                        <span>There And Everywhere!</span>
+                    </h1>
+                    <span class="screen__description">We all wish to start our year the best way possible and also according to a common belief if you have a great start to your.</span>
+                    <a href="" class="button-link">Explore more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="screen screen-2">
+        <div class="container">
+            <div class="row text-row">
+                <div class="col">
+                    <span class="screen__title">Popular Location</span>
+                </div>
+            </div>
+            <div class="row text-row">
+                <div class="col">
+                    <span class="screen__description">For every one of us, travel came first. We’ve spent years living as nomads, pioneers, and voyagers— from island hopping in the</span>
+                </div>
+            </div>
+            <ul class="row card-row">
+                <li class="col card-col">
+                    <div class="screen-card screen-card--medium">
+                        <div class="screen-card__image">
+                            <img src="public/images/webp/s2_1.webp" alt="">
+                        </div>
+                        <div class="screen-card__content">
+                            <div class="card__title screen__title">Istanbul, Turkey</div>
+                            <div class="card__description screen__description">Istanbul is a major city in Turkey that straddles Europe. </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="col card-col">
+                    <div class="screen-card screen-card--medium">
+                        <div class="screen-card__image">
+                            <img src="public/images/webp/s2_2.webp" alt="">
+                        </div>
+                        <div class="screen-card__content">
+                            <div class="card__title screen__title">Kuala Lumpur, malaysia</div>
+                            <div class="card__description screen__description">A 272-step long trek leads you to this century.</div>
+                        </div>
+                    </div>
+                </li>
+                <li class="col card-col">
+                    <div class="screen-card screen-card--medium">
+                        <div class="screen-card__image">
+                            <img src="public/images/webp/s2_3.webp" alt="">
+                        </div>
+                        <div class="screen-card__content">
+                            <div class="card__title screen__title">Seoul, South Korea</div>
+                            <div class="card__description screen__description">South Korea officially the Republic of Korea is a country in East Asia.</div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="screen screen-3">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <span class="screen__title">Special Offers</span>
+                    <span class="screen__description">With the New Year comes a refreshing sense of wanderlust, a longing in our souls to escape to warmer climates, </span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <ul class="screen-card-list slider">
+                        <li class="screen-card-list__item">
+                            <div class="screen-card screen-card--small">
+                                <div class="screen-card__image">
+                                    <img src="public/images/webp/s3_1.webp" alt="">
+                                </div>
+                                <div class="screen-card__content">
+                                    <div class="screen-card__title">Statue of Liberty.</div>
+                                    <div class="screen-card__location">
+                                        <span class="location">New York</span>
+                                        <span class="rate">4.8</span>
+                                    </div>
+                                    <div class="screen-card__time screen-card__time">4 Day 5 Nights</div>
+                                    <div class="screen-card__time screen-card__price">
+                                        <span class="price-value">450</span>
+                                        <span class="price-type">person</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="screen-card-list__item">
+                            <div class="screen-card screen-card--small">
+                                <div class="screen-card__image">
+                                    <img src="public/images/webp/s3_2.webp" alt="">
+                                </div>
+                                <div class="screen-card__content">
+                                    <div class="screen-card__title">The Great Wall</div>
+                                    <div class="screen-card__location">
+                                        <span class="location">China</span>
+                                        <span class="rate">4.9</span>
+                                    </div>
+                                    <div class="screen-card__time screen-card__time">7 Day 8 Nights</div>
+                                    <div class="screen-card__time screen-card__price">
+                                        <span class="price-value">850</span>
+                                        <span class="price-type">person</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="screen-card-list__item">
+                            <div class="screen-card screen-card--small">
+                                <div class="screen-card__image">
+                                    <img src="public/images/webp/s3_3.webp" alt="">
+                                </div>
+                                <div class="screen-card__content">
+                                    <div class="screen-card__title">Dizin</div>
+                                    <div class="screen-card__location">
+                                        <span class="location">Iran</span>
+                                        <span class="rate">4.6</span>
+                                    </div>
+                                    <div class="screen-card__time screen-card__time">5 Day 6 Nights</div>
+                                    <div class="screen-card__time screen-card__price">
+                                        <span class="price-value">550</span>
+                                        <span class="price-type">person</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="screen-card-list__item">
+                            <div class="screen-card screen-card--small">
+                                <div class="screen-card__image">
+                                    <img src="public/images/webp/s3_4.webp" alt="">
+                                </div>
+                                <div class="screen-card__content">
+                                    <div class="screen-card__title">Sajek Valley</div>
+                                    <div class="screen-card__location">
+                                        <span class="location">Bangladesh</span>
+                                        <span class="rate">4.7</span>
+                                    </div>
+                                    <div class="screen-card__time screen-card__time">3 Day 4 Nights</div>
+                                    <div class="screen-card__time screen-card__price">
+                                        <span class="price-value">400</span>
+                                        <span class="price-type">person</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="screen-card-list__item">
+                            <div class="screen-card screen-card--small">
+                                <div class="screen-card__image">
+                                    <img src="public/images/webp/s3_5.webp" alt="">
+                                </div>
+                                <div class="screen-card__content">
+                                    <div class="screen-card__title">Osaka Castle</div>
+                                    <div class="screen-card__location">
+                                        <span class="location">Japan</span>
+                                        <span class="rate">4.7</span>
+                                    </div>
+                                    <div class="screen-card__time screen-card__time">4 Day 5 Nights</div>
+                                    <div class="screen-card__time screen-card__price">
+                                        <span class="price-value">700</span>
+                                        <span class="price-type">person</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="screen screen-4">
+        <div class="container">
+            <div class="row text-row">
+                <div class="col">
+                    <span class="screen__title">From Blog & News</span>
+                    <span class="screen__description">Welcome to Community Conversations, a new interview series featuring Intrepid travellers, creatives and activists in our community.</span>
+                </div>
+            </div>
+            <div class="row content-row">
+                <div class=" tabs">
+                    <div class="col">
+                        <div class="screen-card--large">
+                            <div class="screen-card__image">
+                                <img src="public/images/webp/s4_1.webp" alt="">
+                            </div>
+                            <div class="screen-card__content">
+                                <span class="screen-card__title">Banff National Park</span>
+                                <span class="screen-card__description">Banff National Park lies in the heart of the majestic Rocky Mountains in the province of Alberta, and showcases some of Canada's most beautiful scenery. Turquoise-colored lakes, snow-capped peaks, and glaciers are all easily accessible </span>
+                                <span class="screen-card__nickname">@thomasalva_adison</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row tabs-list__item">
+                            <div class="col screen-card--small">
+                                <div class="screen-card__image">
+                                    <img src="public/images/webp/s4_2.webp" alt="">
+                                </div>
+                                <div class="screen-card__content">
+                                    <span class="screen-card__title">The Hiroshima Peace!</span>
+                                    <span class="screen-card__description">It was formally opened to the public in August that year.</span>
+                                    <span class="screen-card__nickname">@shova_bd88</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row tabs-list__item">
+                            <div class="col screen-card--small">
+                                <div class="screen-card__image">
+                                    <img src="public/images/webp/s4_3.webp" alt="">
+                                </div>
+                                <div class="screen-card__content">
+                                    <span class="screen-card__title">The faithful prayers!</span>
+                                    <span class="screen-card__description">A major pilgrimage center for Hindus, the holy city.</span>
+                                    <span class="screen-card__nickname">@adem/smith</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row tabs-list__item">
+                            <div class="col screen-card--small">
+                                <div class="screen-card__image">
+                                    <img src="public/images/webp/s4_4.webp" alt="">
+                                </div>
+                                <div class="screen-card__content">
+                                    <span class="screen-card__title">Colourful waters!</span>
+                                    <span class="screen-card__description">Forest-driven water and energy cycles are poorly.</span>
+                                    <span class="screen-card__nickname">@jhon7leew</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="row footer-logo-row">
+                    <div class="col footer-logo-col">
+                        <a href="" class="footer-logo">Trevland</a>
+                    </div>
+                </div>
+                <div class="row footer-contacts-row">
+                    <div class="col footer-contacts-col">
+                        <span class="contacts-title">Contact us</span>
+                        <a class="contacts-content">@shovasatkhira88.com</a>
+                    </div>
+                </div>
+                <div class="row footer-social-row">
+                    <div class="col footer-social-col">
+                        <ul class="social-list">
+                            <li class="social-list__item">
+                                <a href="" class="social-list__item-link facebook-icon"></a>
+                            </li>
+                            <li class="social-list__item">
+                                <a href="" class="social-list__item-link instagram-icon"></a>
+                            </li>
+                            <li class="social-list__item">
+                                <a href="" class="social-list__item-link twitter-icon"></a>
+                            </li>
+                            <li class="social-list__item">
+                                <a href="" class="social-list__item-link google-icon"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <ul class="links-list">
+                    <li class="links-list__item">
+                        <a href="" class="link-list__item-link">Services</a>
+                    </li>
+                    <li class="links-list__item">
+                        <a href="" class="link-list__item-link">About</a>
+                    </li>
+                    <li class="links-list__item">
+                        <a href="" class="link-list__item-link">Our story</a>
+                    </li>
+                    <li class="links-list__item">
+                        <a href="" class="link-list__item-link">Benefits</a>
+                    </li>
+                    <li class="links-list__item">
+                        <a href="" class="link-list__item-link">Branding</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col">
+                <ul class="links-list">
+                    <li class="links-list__item">
+                        <a href="" class="link-list__item-link">Legal</a>
+                    </li>
+                    <li class="links-list__item">
+                        <a href="" class="link-list__item-link">Terms & Conditions</a>
+                    </li>
+                    <li class="links-list__item">
+                        <a href="" class="link-list__item-link">Privecy Policy</a>
+                    </li>
+                    <li class="links-list__item">
+                        <a href="" class="link-list__item-link">Terms of use</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col">
+                <form action="" class="row subscribe-form">
+                    <div class="subscribe-form__title">subscribe now</div>
+                    <div class="subscribe-form__fields">
+                        <label><input type="email" placeholder="Email"></label>
+                        <button type="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
 </html>

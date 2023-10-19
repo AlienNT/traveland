@@ -1,0 +1,66 @@
+@import "../variables";
+
+.screen-1 {
+  min-height: $viewportHeight;
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  position: relative;
+
+  &:before,
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: $viewportHeight;
+  }
+
+  &:before {
+    background: url("public/images/webp/s1.webp") no-repeat center /cover;
+  }
+
+  &:after {
+    background: rgba(0, 0, 0, 0.30);
+    z-index: 0;
+  }
+
+  .container {
+    position: relative;
+    z-index: 1;
+  }
+
+  .screen__title,
+  .screen__description {
+    color: $fontColorLight;
+    text-align: left;
+  }
+
+  .screen__title {
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 78px */
+    margin-bottom: 30px;
+    @media all and (max-width: 768px) {
+      font-size: 32px;
+    }
+
+    > * {
+      display: block;
+    }
+  }
+
+  .screen__description {
+    display: block;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+    opacity: 0.6;
+    max-width: 458px;
+  }
+}

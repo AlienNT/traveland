@@ -1,0 +1,10 @@
+.card-row {
+  justify-content: center;
+}
+
+.card-col {
+  flex: 0 0 33.33%;
+  min-width: 300px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
